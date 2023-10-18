@@ -1,0 +1,47 @@
+void setup() {
+  pinMode(15,OUTPUT);
+}
+void loop() {
+  delay(1000);
+  Serial.println("SOS COMEÇANDO");
+  //S
+  digitalWrite(15,HIGH);
+  delay(300);
+  digitalWrite(15,LOW);
+  delay(200);
+  digitalWrite(15,HIGH);
+  delay(300);
+  digitalWrite(15,LOW);
+  delay(200);
+  digitalWrite(15,HIGH);
+  delay(300);
+  digitalWrite(15,LOW);
+  delay(450);
+  //O
+  digitalWrite(15,HIGH);
+  delay(700);
+  digitalWrite(15,LOW);
+  delay(200);
+  digitalWrite(15,HIGH);
+  delay(700);
+  digitalWrite(15,LOW);
+  delay(200);
+  digitalWrite(15,HIGH);
+  delay(700);
+  digitalWrite(15,LOW);
+  delay(450);
+  //S
+  digitalWrite(15,HIGH);
+  delay(200);
+  digitalWrite(15,LOW);
+  delay(200);
+  digitalWrite(15,HIGH);
+  delay(200);
+  digitalWrite(15,LOW);
+  delay(200);
+  digitalWrite(15,HIGH);
+  delay(300);
+  digitalWrite(15,LOW);
+  delay(450);
+  Serial.println("terminou");
+}
